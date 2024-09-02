@@ -24,6 +24,7 @@ body {
 }
 .container__qr {
 	border-radius: 10px;
+	width: 100%;
 }
 .container__info {
 	display: flex;
@@ -43,4 +44,10 @@ body {
 	text-align: center;
 	line-height: 150%;
 	color: #68778d;
+}
+
+@media (max-width: 768px) {
+	body {
+		padding: 0 16px;
+	}
 }
